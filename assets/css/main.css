@@ -2564,6 +2564,12 @@ input, select, textarea {
 			line-height: 1.5em;
 			margin: 0;
 		}
+	.giflist{
+		display: none;
+	}	
+	.hidden{
+		display: none;
+	}  
 
 /* Header */
 
@@ -2752,7 +2758,7 @@ input, select, textarea {
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
 		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-		background: #fff;
+		background: rgb(199, 196, 196);
 		border-radius: 0.35em;
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 		overflow: hidden;
@@ -2813,8 +2819,8 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-			background: rgba(0, 0, 0, 0.01);
+			-webkit-tap-highlight-color: rgba(255, 253, 253, 0);
+			background: rgba(241, 241, 241, 0);
 			cursor: pointer;
 			height: 100%;
 			opacity: 0;
@@ -2839,7 +2845,7 @@ input, select, textarea {
 
 			.poptrox-popup .nav-next:before,
 			.poptrox-popup .nav-previous:before {
-				color: #fff;
+				color: rgb(71, 143, 125);
 				font-size: 2.5em;
 				height: 1em;
 				line-height: 1em;
@@ -2875,7 +2881,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-			color: #fff;
+			color: rgb(9, 88, 69);
 			height: 4em;
 			line-height: 4em;
 			opacity: 0;
@@ -2906,7 +2912,7 @@ input, select, textarea {
 				-ms-box-sizing: content-box;
 				box-sizing: content-box;
 				border-radius: 100%;
-				border: solid 3px rgba(255, 255, 255, 0.5);
+				border: solid 5px rgb(40, 121, 100);;
 				content: '\f00d';
 				display: block;
 				font-size: 1em;
